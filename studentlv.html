@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>student</title>
+    <link rel="stylesheet" type="text/css" href="studentlv.css"/>
+    <script type="text/javascript" src="studentlv.js" defer></script>
+</head>
+<body>
+    <!-- 容器-->
+    <div class="wrapper">
+        <!-- 主体-->
+        <div class="student">
+            <h2>STUDENT SCORE LEVEL</h2>
+            <div>
+                <label>成绩：</label>
+                <input type="number" class="score" id="score" placeholder="0~100" required/>
+                <button class="btn" id="btn" onclick="levelScore()">确认</button>
+                <br/>
+            </div>
+            <div class="level" id="level"></div>
+        </div>
+    </div>
+</body>
+</html>
